@@ -4,15 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "ceres",
+    name: "ceres-target",
     products: [
         .library(
-            name: "ceres",
-            targets: ["ceres"]),
+            name: "ceres-target",
+            targets: ["ceres-target"]),
     ],
     dependencies: [
     ],
     targets: [
+      .target(
+        name: "ceres-target",
+        dependencies: ["ceres"],
+        path: "Sources/ceres",
+        linkerSettings: [
+          .linkedLibrary("c++")
+        ]
+      ),
       .binaryTarget(name: "ceres", path: "ceres.xcframework")
     ]
 )

@@ -1,6 +1,6 @@
-public struct ceres {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
-    }
-}
+//public struct ceres {
+//    public private(set) var text = "Hello, World!"
+//
+//    public init() {
+//    }
+//}
