@@ -18,7 +18,8 @@ let package = Package(
         dependencies: ["ceres"],
         path: "Sources/ceres",
         linkerSettings: [
-          .linkedLibrary("c++")
+          .linkedLibrary("c++"),
+          .linkedFramework("Eigen")
         ]
       ),
       .binaryTarget(name: "ceres", path: "ceres.xcframework")
