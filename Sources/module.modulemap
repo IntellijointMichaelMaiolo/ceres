@@ -1,4 +1,4 @@
-module BepopInterface {
+module ceres {
     umbrella header "ceres.h"
     export *
 }
