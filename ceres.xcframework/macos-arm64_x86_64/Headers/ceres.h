@@ -34,7 +34,7 @@
 #ifndef CERES_PUBLIC_CERES_H_
 #define CERES_PUBLIC_CERES_H_
 
-#include "ceres/autodiff_cost_function.h"
+#include "autodiff_cost_function.h"
 #include "ceres/autodiff_local_parameterization.h"
 #include "ceres/conditioned_cost_function.h"
 #include "ceres/context.h"
