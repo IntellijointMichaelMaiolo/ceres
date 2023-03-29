@@ -1,5 +1,6 @@
 module ceres {
     umbrella header "ceres/ceres.h"
+    umbrella header "eigen/Eigen/Eigen"
 //    header "autodiff_cost_function.h"
 //    header "autodiff_local_parameterization.h"
 //    header "conditioned_cost_function.h"
