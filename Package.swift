@@ -17,6 +17,9 @@ let package = Package(
         name: "ceres-target",
         dependencies: ["ceres"],
         path: "Sources/ceres",
+        cSettings: [
+          .headerSearchPath("../eigen"),
+        ],
         linkerSettings: [
           .linkedLibrary("c++"),
         ]
